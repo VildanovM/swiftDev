@@ -9,28 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var cur = 0
     @IBOutlet weak var sliderOut: UISlider!
+    var label = UILabel()
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.frame = CGRect(x: 0, y: 0, width: 30, height: 50)
+        label.text = "semka"
+        label.center = view.center
+        view.addSubview(label)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func sliderAct(_ sender: Any) {
-        sliderValueDidChange(sender: sliderOut)
-        self.view.backgroundColor = UIColor(red: CGFloat(sliderOut.value), green: CGFloat(sliderOut.value) / 255, blue: CGFloat(sliderOut.value), alpha: 1)
+        cur += 1
+        self.view.backgroundColor = UIColor(red: CGFloat(sliderOut.value), green: CGFloat(sliderOut.value), blue: CGFloat(sliderOut.value) / 255, alpha: 1)
+        label.text = "\(cur): semka"
+        
     }
     
-    func sliderValueDidChange(sender: UISlider) {
-        switch sender.value {
-        case let a where a <= 0.3 : sliderOut.minimumTrackTintColor = UIColor.green
-        case let a where a > 0.3 && a <= 0.6 : sliderOut.minimumTrackTintColor = UIColor.yellow
-        default:
-            sliderOut.minimumTrackTintColor = UIColor.red
-        }
+   
         
     }
 
 
-}
 

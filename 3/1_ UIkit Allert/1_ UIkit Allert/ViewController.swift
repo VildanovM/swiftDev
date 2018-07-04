@@ -52,6 +52,7 @@ class ViewController: UIViewController {
     func allertForgetPas() {
         let allert2 = UIAlertController(title: "Вход в приложение", message: "Введите пароль:", preferredStyle: .alert)
         allert2.addTextField(configurationHandler: nil)
+        allert2.textFields.
         
         let allertAction2 = UIAlertAction(title: "Ok", style: .cancel, handler: { action in
             if (allert2.textFields?.first?.text!) == "" {

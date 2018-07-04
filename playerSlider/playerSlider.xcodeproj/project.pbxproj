@@ -12,7 +12,7 @@
 		97300B4D2062D6490081C339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97300B4B2062D6490081C339 /* Main.storyboard */; };
 		97300B4F2062D6490081C339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97300B4E2062D6490081C339 /* Assets.xcassets */; };
 		97300B522062D6490081C339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97300B502062D6490081C339 /* LaunchScreen.storyboard */; };
-		97300B5A2062D73C0081C339 /* forest the people – pumped up kicks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97300B592062D73C0081C339 /* forest the people – pumped up kicks.mp3 */; };
+		973DA824207A988E00986310 /* forest the people – pumped up kicks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 973DA823207A988E00986310 /* forest the people – pumped up kicks.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		97300B4E2062D6490081C339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97300B512062D6490081C339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97300B532062D6490081C339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97300B592062D73C0081C339 /* forest the people – pumped up kicks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "forest the people – pumped up kicks.mp3"; path = "../../../forest the people – pumped up kicks.mp3"; sourceTree = "<group>"; };
+		973DA823207A988E00986310 /* forest the people – pumped up kicks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "forest the people – pumped up kicks.mp3"; path = "../../../../forest the people – pumped up kicks.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				97300B472062D6490081C339 /* AppDelegate.swift */,
 				97300B492062D6490081C339 /* ViewController.swift */,
 				97300B4B2062D6490081C339 /* Main.storyboard */,
-				97300B592062D73C0081C339 /* forest the people – pumped up kicks.mp3 */,
+				973DA823207A988E00986310 /* forest the people – pumped up kicks.mp3 */,
 				97300B4E2062D6490081C339 /* Assets.xcassets */,
 				97300B502062D6490081C339 /* LaunchScreen.storyboard */,
 				97300B532062D6490081C339 /* Info.plist */,
@@ -128,7 +128,7 @@
 			files = (
 				97300B522062D6490081C339 /* LaunchScreen.storyboard in Resources */,
 				97300B4F2062D6490081C339 /* Assets.xcassets in Resources */,
-				97300B5A2062D73C0081C339 /* forest the people – pumped up kicks.mp3 in Resources */,
+				973DA824207A988E00986310 /* forest the people – pumped up kicks.mp3 in Resources */,
 				97300B4D2062D6490081C339 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BCN3D7ZLJ;
 				INFOPLIST_FILE = playerSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.playerSlider";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24Maxim.playerSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,12 +295,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BCN3D7ZLJ;
 				INFOPLIST_FILE = playerSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.playerSlider";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24Maxim.playerSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
